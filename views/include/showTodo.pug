@@ -2,4 +2,4 @@ ul
     each todo in todos
         li
             span= todo
-            span(style="cursor:pointer; margin-left:10px;", onclick=`location.href='/deleteTodo?item=${encodeURIComponent(todo)}'`) ×
+            i.fas.fa-times(style="cursor:pointer; margin-left:10px;", onclick=`location.href='/deleteTodo?item=${encodeURIComponent(todo)}'`)
