@@ -2,8 +2,6 @@
 
 A simple, server-rendered Todo application built with Node.js, Express and Pug (formerly Jade). This project demonstrates a minimal CRUD Todo list with server-side templating using Pug and a lightweight Express backend.
 
-> NOTE: This README is a general guide. Adjust instructions to match the exact scripts and structure in the repository if they differ.
-
 ## Features
 
 - Create, read, update and delete todos (CRUD)
